@@ -1,0 +1,62 @@
+import {
+  BriefcaseBusiness,
+  Shirt,
+  ShoppingBag,
+} from "lucide-react";
+
+export const categories = [
+  {
+    id: 1,
+    name: "T-Shirts",
+    description: "Classic everyday styles",
+    startingPrice: 499,
+    icon: Shirt,
+    background: "bg-orange-50",
+    iconColor: "text-orange-600",
+  },
+  {
+    id: 2,
+    name: "Oversized Tees",
+    description: "Relaxed streetwear fits",
+    startingPrice: 699,
+    icon: Shirt,
+    background: "bg-purple-50",
+    iconColor: "text-purple-600",
+  },
+  {
+    id: 3,
+    name: "Hoodies",
+    description: "Warm and trendy layers",
+    startingPrice: 999,
+    icon: Shirt,
+    background: "bg-blue-50",
+    iconColor: "text-blue-600",
+  },
+  {
+    id: 4,
+    name: "Sweatshirts",
+    description: "Premium casual comfort",
+    startingPrice: 899,
+    icon: Shirt,
+    background: "bg-emerald-50",
+    iconColor: "text-emerald-600",
+  },
+  {
+    id: 5,
+    name: "Joggers",
+    description: "Comfort meets street style",
+    startingPrice: 799,
+    icon: BriefcaseBusiness,
+    background: "bg-amber-50",
+    iconColor: "text-amber-600",
+  },
+  {
+    id: 6,
+    name: "Tote Bags",
+    description: "Carry your creativity",
+    startingPrice: 399,
+    icon: ShoppingBag,
+    background: "bg-rose-50",
+    iconColor: "text-rose-600",
+  },
+];
